@@ -1,0 +1,39 @@
+{
+  "short_name": "Dao Chat",
+  "name": "Dao Chat",
+  "description": "Decentralised chats for DAOs",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "orientation": "portrait",
+  "permissions": ["storage"],
+  "icons": [
+    {
+      "src": "TwitterPP.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "TwitterPP.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "TwitterPP.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "TwitterPP.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#00FFA3",
+  "background_color": "#000000"
+}
